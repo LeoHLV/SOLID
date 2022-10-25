@@ -22,7 +22,7 @@
 
 ```OCP ( Open Closed ) ```<br>
 ▶ Entidades de softwere (classes, módulos, funções, etc) devem estar abertas para extensões, mas fechadas para modificação.<br>
-▶ Não modificar uma classe que está funcionando para adicionar um funcionalidade, deve-se extender e adicionar funcionalidades por fora.<br>
+▶ Não se deve adicionar funcionalidades a uma classe que funciona perfeitamente, deve-se extender e adicionar funcionalidades por fora.<br>
 ▶ Deve ser analisado dois fatores: <br>
 <img src="https://raw.githubusercontent.com/LeoHLV/Armazenamento/main/Imagens/emoji_empty.webp" height="16px"> 1. Comportamento que já possui : só pode ser alterado na própria classe!<br>
 <img src="https://raw.githubusercontent.com/LeoHLV/Armazenamento/main/Imagens/emoji_empty.webp" height="16px"> 2. Comportamento que virá a possuir : pode considerar adaptar apenas para receber extensões.
